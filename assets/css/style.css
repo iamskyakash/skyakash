@@ -20,6 +20,10 @@ body::before {
   content: "";
   position: fixed;
   background: #040404 url("../img/background.jpg") top right no-repeat;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
   background-size: cover;
   left: 0;
   right: 0;
